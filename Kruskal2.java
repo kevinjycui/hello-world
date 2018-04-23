@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Kruskal's alogorithm 
 public class Kruskal2 {
 	int V;
 	int E;
@@ -25,8 +25,8 @@ public class Kruskal2 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
-		int v = 5;
-		int e = 7;
+		int v = sc.nextInt();
+		int e = sc.nextInt();
 		Kruskal2 graph = new Kruskal2(v, e);
 		for (int i=0; i<e; i++) {
 			graph.edge[i].bv = sc.nextInt();

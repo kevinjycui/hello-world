@@ -1,5 +1,5 @@
 import java.util.Scanner;
-//Kruskal's alogorithm 
+//Kruskal's alogorithm setup file upload test1
 public class Kruskal2 {
 	int V;
 	int E;
